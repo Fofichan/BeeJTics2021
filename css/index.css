@@ -1,0 +1,215 @@
+/*Le css pour l'ui*/
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900);
+* section .jumbotron {
+    height: 40vh;
+    margin-bottom: 0;
+    background: url(/images/6.jpg) no-repeat 100% 5%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+}
+
+body {
+    background: url(/images/10.jpg) no-repeat center fixed;
+    background-color: rgb(250, 232, 232);
+    font-size: 26px;
+}
+
+.wrapper {
+    background: url(/images/10.jpg) no-repeat center fixed;
+    width: 95%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.titree {
+    font-size: 16vw;
+    color: #000;
+    background: #fff;
+    padding: 20px 40px;
+    mix-blend-mode: screen;
+}
+
+header,
+footer {
+    background-color: ghostwhite;
+    padding: 5px;
+}
+
+main {
+    background-color: cornsilk;
+    padding: 5px;
+}
+
+.layout-sidebar {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 2fr 1fr;
+}
+
+#moy {
+    text-align: center;
+    font-size: 25px;
+    width: 58px;
+    height: 58px;
+}
+
+#tempRell {
+    text-align: center top;
+    font-size: 40px;
+    width: 58px;
+    height: 58px;
+}
+
+th {
+    text-align: center;
+    font-size: 25px;
+}
+
+td {
+    font-size: 28px;
+}
+
+span,
+#tempAct,
+#HumAct {
+    text-align: center;
+    font-size: 4vw;
+}
+
+
+/* Css footer */
+
+
+/* body {
+    font-family: 'Signika', sans-serif;
+} */
+
+.bg-grey {
+    background: #292929;
+}
+
+.logo-footer {
+    margin-bottom: 40px;
+}
+
+footer {
+    color: grey;
+}
+
+footer p,
+a {
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer h6 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+footer h6:after {
+    position: absolute;
+    content: "";
+    background: grey;
+    width: 12%;
+    height: 1px;
+    left: 0;
+    bottom: -20px;
+}
+
+.btn-footer {
+    color: grey;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 43px;
+    font-size: 13px;
+    padding: 7px 30px;
+    line-height: 47px;
+}
+
+.btn-footer:hover {
+    text-decoration: none;
+}
+
+.form-footer input[type="text"] {
+    border: none;
+    border-radius: 16px 0 0 16px;
+    outline: none;
+    padding-left: 10px;
+}
+
+::placeholder {
+    font-size: 10px;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.form-footer input[type="button"] {
+    border: none;
+    background: #232323;
+    margin-left: -5px;
+    color: #fff;
+    outline: none;
+    border-radius: 0 16px 16px 0;
+    padding: 2px 12px;
+}
+
+.social .fa {
+    color: grey;
+    font-size: 22px;
+    padding: 10px 15px;
+    background: #3c3c3c;
+}
+
+footer ul li {
+    list-style: none;
+    display: block;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: grey;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f5f5f5 !important;
+}
+
+.logo-part {
+    border-right: 1px solid grey;
+    height: 100%;
+}
+
+#tempRell {
+    text-align: center;
+}
+
+
+/*header*/
+
+.navbar-brand {
+    float: none;
+}
+
+.navbar-center {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+    height: 100%;
+}

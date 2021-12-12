@@ -1,0 +1,36 @@
+{
+  "name": "beej",
+  "version": "1.0.0",
+  "description": "tics project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@kurkle/color": "^0.1.9",
+    "body-parser": "^1.19.0",
+    "chart.js": "^3.6.2",
+    "chartjs-adapter-luxon": "^1.1.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-ejs-layouts": "^2.5.0",
+    "express-fileupload": "^1.2.1",
+    "express-ws": "^4.0.0",
+    "fs": "0.0.1-security",
+    "gridfs-stream": "^1.1.1",
+    "luxon": "^2.2.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "nodemon": "^2.0.15",
+    "serialport": "^9.0.4",
+    "socket.io": "^3.1.0",
+    "socket.io-client": "^3.1.0",
+    "sweetalert": "^2.1.2",
+    "ws": "^7.4.1"
+  }
+}
